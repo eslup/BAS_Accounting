@@ -1,0 +1,5 @@
+# .env
+DEBUG=True
+SECRET_KEY='your-django-secret-key-here' # Generate a strong random key for production
+DATABASE_URL='postgresql://DB_USER:DB_PASSWORD@DB_HOST:DB_PORT/DB_NAME' # Your PostgreSQL connection details
+# Add other secrets like API keys later
